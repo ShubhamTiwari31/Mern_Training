@@ -1,0 +1,49 @@
+/* 2 em is 2 times of font size of the parent, em is relative to the parent */
+
+.parent{
+    font-size: 10px;
+
+}
+
+html{
+    font-size: 20px;
+}
+
+.child{
+    font-size: 1rem;
+    background-color: aquamarine;
+    width: 100rem; 
+
+    /* rem is relative to root element font size i.e. html element is 16px then 16*10 rem */
+    /* for ex big text, small text, medium text */
+}
+
+/* because button is inline */
+
+
+
+.btn{
+    display: block;
+    padding: 16px;
+    border-radius: 10em;
+    background-color: grey;
+    border: none;
+    margin: 10px auto; 
+    /* made it to block to come to center */
+    font-size: 16px;
+    width: 20em;
+}
+
+.btn-small{
+    display: block;
+    font-size: 14px;
+    /* padding: 12px 8px; */
+    /* width: 80px; */
+}
+
+.btn-big{
+    font-size: 24px;
+}
+
+
+

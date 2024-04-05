@@ -1,0 +1,133 @@
+/* div{
+    background-color: white; 
+    text-decoration: wavy; 
+    text-transform: uppercase;  
+    font-size: 20px; 
+    color: red;
+}
+#heading{
+    background-color: green; 
+    text-decoration: wavy; 
+    text-transform: uppercase;  
+    font-size: 20px; 
+    color: blue;
+}
+.content.big-text{
+    background-color: yellow; 
+    text-decoration: wavy; 
+    text-transform: uppercase;  
+    font-size: 20px; 
+    color: green;
+} */
+  /* margin: 16px; all*/
+    /* margin: 100px 10px; top&bottom left&right */
+    /* margin: 100px 10px 10px top left&right bottom */
+
+   /* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    width: border(lr)+content+padding;
+   } */
+
+   /* .parent p{
+    background-color: brown;
+   } */
+
+   /* .parent{
+        p{ */
+            /* background-color: aqua;
+            padding: 22px;
+            width: fit-content;
+        }
+        span{
+            background-color: blue;
+            width: 150px;
+            /* padding: 2px; */
+        /* }
+   }
+   
+    .parent{
+    background-color: yellow;
+    padding: 16px;
+    margin: 16px ;
+    border: 1px solid black; */
+    /* width of content in content box, but in border box it's different */
+    /* box-sizing: content-box;
+    width: 50px;
+}
+.heading{
+    padding: 16px;
+    margin: 16px 20px 0px;
+    border: 1px solid blue;
+} */ 
+
+
+/* .parent{
+    width: 200px;
+    background-color:aqua ;
+    text-align: center;
+    margin: 0 0 0 auto; 
+}
+
+img{
+    display: block;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0 0 0 auto;
+} */
+
+p{
+    background-color: blue;
+}
+
+/* Highest priority of id selector */
+/* #p1{
+    background-color: aqua;
+} */
+
+/* class has second highest priority after id, and the class written later will follow the priority */
+.p2{
+    background-color: black;
+}
+
+.p3{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Different Conventions 
+selectors
+box model - padding margin border and content 
+width and height
+ppi dpi
+logical vs physical pixel
+px
+height  em rem px % viewport
+combinators
+psuedo class/selectors
+flexbox
+*/
+
+/* 
+    styling - inline, internal, external
+    selectors - id, class, tag
+    box model
+    conventions
+    
+*/
+
+
+
+
+

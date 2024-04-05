@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Site</title>
+  </head>
+  <body>
+    <!-- semantic tags, it helps browser to identify which part is header, footer or main.
+    <header>Hello</header>
+    <main>Blog</main>
+    <footer>Footer</footer>
+    <strong>Strong Text</strong><br />
+    <em>Italic discontinued</em><br />
+    <del>Rs.2000</del> <ins>Rs. 1000</ins>
+    <!-- not primary content but content related to the site -->
+    <aside>Aside Content</aside>
+    <br />
+    <hr />
+    Horizontal rule tag.
+
+    <!-- heading tags -->
+    <h1>Heading 1 - The largest heading</h1>
+    <h2>Heading 2 - The second largest heading</h2>
+    <h3>Heading 3 - The third largest heading</h3>
+    <h4>Heading 4 - Smaller than h3</h4>
+    <h5>Heading 5 - Smallest heading</h5>
+    <h6>Heading 6 - Extra small heading</h6>
+
+    <!--  Paragraph -->
+    <p>
+      This is <span title="Shubham">my</span> first <br />
+      blog &nbsp; &lt; &gt; of APRIL 2024.
+    </p>
+
+    <!-- nbsp are used  for non breaking space between words. -->
+
+    <!-- Formatting tag -->
+    <b
+      ><i><u>Bold, Italic and underlined</u></i></b
+    >
+
+    <!-- link -->
+
+    <!-- relative link - origin stays the same, when user are accessing our site-->
+    <a href="/abc/xyz">For home page</a>
+
+    <!-- absolute link - origin changes, user accessing external site -->
+    <a href="https://www.google.com">This is google site. Click here</a>
+
+    <!-- image tag - self closing tag -->
+    <img
+      width="200px"
+      height="200px"
+      src="/html/1343743.png"
+      alt="Demon Slayer"
+    /><br />
+    <!-- Double quotes are optional in double quotes, code will run without double quote -->
+
+    <!-- block elements and inline elements -->
+
+    <!-- Block-level elements:
+
+        Always start on a new line
+        Take up the full width available (i.e., they have a default width of 100%)
+        Can have margins and padding added on all four sides
+        Examples of block-level elements include <div>, <p>, <h1>, <h2>, <h3>, <h4>, <h5>, and <h6>.
+
+        Inline Elements:
+        
+        Do not start on a new line
+        Takes up only as much width as necessary to contain its content
+        Have no margin or padding by default
+        They flow horizontally with surrounding text
+        Examples of inline elements include <span>, <em>, <strong>, <small>, <label>, <kbd>, <sup>, <sub>, <abbr>, <code> </code> -->
+
+    <!-- span is used when we have to style a specific part -->
+    <span>
+      This just behaves like paragraph tag but this is an inline element. Means
+      it takes only that much space which is needed.
+    </span>
+
+    <!-- HTML is not case sensitive -->
+
+    <div>Hello World</div>
+    <main>Hello World</main>
+
+    <!-- iframe An <iframe> is an HTML element that allows you to embed another HTML document within the current
+         document. This can be useful for embedding external content, such as a YouTube video or a Google Map, 
+         directly into a webpage.-->
+    <iframe src="https://www.flipkart.com"></iframe>
+    <iframe src="https://www.amazon.com"></iframe>
+
+    <a href="/html/home.html" target="_blank">Link to home page</a><br />
+    <a href="/html/home.html" target="_self">Link to home page</a><br />
+    <a href="/html/home.html" target="_top">Link to home page</a><br />
+    <a href="/html/home.html" target="_parent">Link to home page</a><br />
+
+    <section id="story_section">
+      <h3>STORY 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </section>
+    <section id="poem_section">
+      <h3>POEM</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </section>
+    <section id="">
+      <h3>KATHA</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </section>
+
+    <!-- List -->
+    <ol start="11" type="i">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <ul type="square">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <dl>
+      <dt>Title of description list: Coffee</dt>
+      <dd>I like cold coffee</dd>
+      <dt>Title of description list: Tea</dt>
+      <dd>I like hot tea</dd>
+    </dl>
+
+    <!-- Table -->
+    <table border="1">
+        <caption>Student's data</caption>
+      <tr>
+        <th>Sr. No.</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Gender</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td colspan="2">Ajay</td>
+        <td>Male</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td colspan="2">Himanshi</td>
+        <td>Female</td>
+      </tr>
+
+      <!-- thead,tbody,tfoot -->
+
+      <br>
+      <br><hr>
+      <table border="2" style="border-color: aqua;" style="border-collapse: separate;">
+        <caption>Favorite novels</caption>
+        <tr>
+            <th>S. No.</th>
+            <th>Novel</th>
+            <th>Author</th>
+            <th>Year Published</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ugly Love</td>
+            <td>Colleen Hoover</td>
+            <td>2016</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>The kite runner</td>
+            <td>Khaled Hosseini</td>
+            <td>2018</td>
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>Verity</td>
+            <td>Colleen Hoover</td>
+            <td>2023</td>
+        </tr>
+      </table>
+
+    </table> -->
+
+
+
+    <!-- form -->
+
+    <form action="./home.html" method="get">
+        <label>Name:</label><br>
+        <input type="text" name="userName" placeholder="Nam bata" required autocomplete="off"/><br><br>
+        <label>Age:</label><br>
+        <input type="number" name="UserAge" placeholder="Age Bata" required/><br><br>
+        <label>Password: </label><br>
+        <input type="password" name="Userpassword" placeholder="password bata" required/><br><br>
+        <label>Email: </label><br>
+        <input type="email" name="User-email" placeholder="email bhar" required/><br><br>
+        
+        <label>Hobbies: </label><br><br>
+        <input type="checkbox" id="reading" name="hobby" value="Reading"/><label for="reading"> Reading</label><br>
+        <input type="checkbox" id="cricket" name="hobby" value="Cricket"/><label for="cricket"> Cricket</label><br>
+        <input type="checkbox" id="Drawing" name="hobby" value="Drawing"/><label for="Drawing"> Drawing</label><br>
+        <button>Submit</button><br><br>
+
+        <label>Gender:</label><br><br>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <input type="submit"/>
+        <input type="reset"/>
+ 
+
+    </form>
+
+    <br>
+        CO<sub>2</sub>
+    <br>
+        10<sup>2</sup>=100
+
+    <br>
+    <s>Hello</s><br>
+    <del>Hello</del>
+
+
+<!-- abbr - 
+q
+blockquote
+address
+cite
+bdo
+audio
+input type=file
+html and html5 difference
+xhtml meaning
+h6, h5, h4
+Portfolio structure
+what happens when you type google.com
+ -->
+  </body>
+</html>

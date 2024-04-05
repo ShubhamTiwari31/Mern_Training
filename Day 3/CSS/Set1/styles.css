@@ -1,0 +1,68 @@
+.parent{
+    display: grid;
+    /* grid-template-columns: repeat(5, 50px); */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* made three columns  of equal width */
+    grid-auto-rows: 60px;
+    /* made 10 rows repeated of 50px */
+
+   border: 1px solid black;
+   background-color: #2196F3;
+
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+
+.child{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* for header to acquire full width */
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left:10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    
+}
+
+.right{
+    margin-right: 10px;
+    margin-left: 4px;
+    margin-top: -10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main{
+    margin-top: -10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* homework: grid area 
+rowspan, colspan*/

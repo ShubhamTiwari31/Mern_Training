@@ -1,0 +1,41 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+ .child{
+    background-color: rgb(241, 150, 15);
+    border: 1px solid red;
+    flex-basis: 100px;   
+    flex-shrink: 0;
+    
+} 
+
+/* .searchbox{
+    flex-grow: 3;
+    flex-shrink: 1;
+}  */
+
+/* .cart{
+    flex-grow: 1;
+} */
+
+.parent{
+    justify-content: space-between;
+    
+}
+
+.parent1{
+    justify-content: space-around;
+}
+
+.parent2{
+    justify-content: space-evenly;
+}
+
+.parent3{
+    justify-content: flex-end;
+}

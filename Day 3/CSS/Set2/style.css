@@ -1,0 +1,28 @@
+/* positions in CSS */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: yellow;
+}
+
+.parent{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    /* position: absolute;  */
+    /* position: relative;  */
+    /* position: fixed */
+    position: sticky;
+    /* relative to its current position */
+    top: 100px;
+    left: 100px;
+}
+
+/* bring the box in middle */

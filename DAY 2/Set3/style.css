@@ -1,0 +1,51 @@
+
+body{
+    /* background-color:white; */
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 32px;
+}
+/* .parent{  */
+    /* ol{
+        background-color: blueviolet;
+    }
+
+    ul:first-child{
+        background-color: blue;
+    }
+    
+    ul:last-child{
+        background-color: teal;
+        li:nth-child(4){
+            background-color: red;
+            width: 45px;
+        }
+    }
+} */
+
+/* ul:last-child{
+    background-color: teal;
+    li:first-of-type(4){
+        background-color: red;
+        width: 45px;
+    }
+}
+} */
+
+/* Descendant Selector - selects all ul */
+.parent ul{
+    background-color: purple;
+}
+
+/* To select direct child of parent: .parent>ul */
+
+.parent>div{
+    background-color: rgb(126, 231, 20);
+}
+
+/* to access external ul inside body*/
+
+/* adjacent sibling */
+.parent+ul{
+    background-color: beige;
+}
